@@ -1,0 +1,6 @@
+{
+    "require": {
+        "doctrine/orm": "^2.8",
+        "vlucas/phpdotenv": "^5.3"
+    }
+}

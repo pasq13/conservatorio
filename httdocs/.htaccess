@@ -1,0 +1,17 @@
+<files .htaccess>  
+order allow,deny  
+deny from all  
+</files> 
+RewriteEngine On 
+RewriteRule ^login/?$ index.php/login.php [L]
+RewriteRule ^register/?$ index.php/register.php [L]  
+RewriteRule ^logout/?$ index.php/logout.php [L] 
+RewriteRule ^principalAdmin/?$ index.php/principalAdmin.php [L] 
+RewriteRule ^principalUsuario/?$ index.php/principalUsuario.php [L] 
+RewriteRule ^zonaAdmin/?$ index.php/zonaAdmin.php [L] 
+RewriteRule ^zonaAdmin2/?$ index.php/zonaAdmin2.php [L] 
+RewriteRule ^zonaAdmin3/?$ index.php/zonaAdmin3.php [L] 
+RewriteRule ^zonaUsuario/?$ index.php/zonaUsuario.php [L] 
+RewriteRule ^zonaUsuario2/?$ index.php/zonaUsuario2.php [L] 
+RewriteRule ^zonaUsuario3/?$ index.php/zonaUsuario3.php [L] 
+ 
